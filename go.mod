@@ -14,6 +14,7 @@ require (
 	github.com/justinas/alice v1.2.0
 	github.com/mattn/go-sqlite3 v1.14.22
 	go.mongodb.org/mongo-driver v1.16.0
+	google.golang.org/protobuf v1.34.2
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
 )
 
@@ -51,7 +52,6 @@ require (
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/sys v0.22.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
