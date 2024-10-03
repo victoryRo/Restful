@@ -16,7 +16,7 @@ func getCommandOutput(command string, arguments ...string) string {
 }
 
 func goVersion(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
-	response := getCommandOutput("/usr/local/bin/go", "version")
+	response := getCommandOutput("/usr/bin/go", "version")
 	_, _ = io.WriteString(w, response)
 }
 

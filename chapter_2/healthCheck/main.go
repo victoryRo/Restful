@@ -18,6 +18,6 @@ func HealthCheck(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/health", HealthCheck)
 
-	fmt.Println("Running server on port :8080")
+	fmt.Println("Running server on port :8000")
 	log.Fatal(http.ListenAndServe(":8000", nil))
 }

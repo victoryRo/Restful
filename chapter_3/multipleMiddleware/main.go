@@ -71,3 +71,6 @@ func main() {
 	fmt.Println("Run server port: 3011")
 	log.Fatal(http.ListenAndServe(":3011", nil))
 }
+
+// Request
+// curl -H "Content-Type: application/json" -X POST http://localhost:3011/city -d '{"name":"New York", "area":304}'

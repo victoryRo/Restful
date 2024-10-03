@@ -68,7 +68,7 @@ func main() {
 // debido a que un cliente puede ser un curl programa,
 // ya que el servidor RPC atiende solicitudes a través de HTTP,
 // debemos publicar JSON con una ID de libro para obtener los detalles.
-// Entonces, inicia otro shell y ejecuta esta curlsolicitud:
+// Entonces, inicia otro shell y ejecuta esta curl solicitud:
 
 /**
 curl -X POST \
